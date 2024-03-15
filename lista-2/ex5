@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main(){
+    
+    int numint, numdec;
+    
+        printf("Digite um numero inteiro:\n");
+            scanf("%i.%i", &numint, &numdec);
+         
+       
+        if (numdec == 00){
+            
+            numdec = 100;
+            
+        }
+     
+        if (numint % 2 == 0){
+            
+            numint = sqrt(numint);
+            numdec = sqrt(numdec);
+            printf("a raiz desse numero eh: %i.%i\n", numint, numdec);
+            
+        }else{
+            
+            numint = numint / 2;
+            numdec = numdec / 2;
+            
+            printf("a metade desse numero eh: %i.%i\n", numint, numdec);
+            
+        }
+        
+    
+}

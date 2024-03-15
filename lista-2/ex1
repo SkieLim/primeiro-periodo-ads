@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main (){
+    
+    float num, numres;
+    
+    printf("Digite um numero\n");
+        scanf("%f", &num);
+        
+    if (num > 0) {
+        numres = num * 3;
+        printf("o triplo de %.0f eh: %.0f\n", num, numres);
+        
+    }else if (num < 0) {
+        numres = pow(num, 2);
+        printf("o quadrado de %.0f eh: %.0f\n", num, numres);
+        
+    }else{
+        printf("seu numero é neutro!\n");
+    }
+    system("pause");
+}
