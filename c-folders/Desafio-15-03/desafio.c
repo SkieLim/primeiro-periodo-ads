@@ -27,7 +27,7 @@ int main() {
 
     e = (11 * g + 20 + z - x) % 30;
 
-        //Condição Epacta:
+    //Condição Epacta:
 
     if (e == 25 && g > 11 || e == 24){
 
