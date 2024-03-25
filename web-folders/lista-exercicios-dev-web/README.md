@@ -3,4 +3,4 @@ Este é um trabalho desenvolvido para a matéria de desenvolvimento de sites bá
 <br>
 Contém listas de exercícios passadas pelo professor.
 <br>
-https://matheusfqueiroz.github.io/lista-exercicios-dev-web/
+https://skielim.github.io/lista-exercicios-dev-web/
